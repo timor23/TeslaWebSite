@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Medium_Web.woff2");
+}
+
+@font-face {
+    font-family: "Gotham SSm";
+    src: url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Book_Web.woff2");
+}
+
+body {
+    font-family: "Gotham SSM";
+    line-height: 21px;
+}
+
+.page-1 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/M3-Hero-LHD-US-D.jpeg);
+    background-repeat: no-repeat;
+    background-position:left top;
+    background-size:100% 100%;
+    
+}
+
+
+nav .logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    float: left;
+}
+
+.middle {
+    margin-left: 35vw;
+    padding-top: 20px;
+}
+
+
+
+nav ul li {
+    display: block;
+    float: left;
+    padding-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 10px;
+    border-radius: 20px;
+    font-family: "Gotham SSm";
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+nav ul li:hover {
+    background: rgba(207, 224, 226, 0.39);;
+}
+
+.right li {
+    display: block;
+    float: right;
+}
+
+.car-model {
+    clear: both;
+    text-align: center;
+    /* padding-top: 0vh;  */
+    margin-top: 15vh;
+    font-family: "Gotham Medium";
+    line-height: 48px;
+}
+
+.car-model h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.bottom-bar {
+    /* margin: 60vh 35vw; */
+    margin-top: 60vh ;
+    margin-left: 35vw;
+    color: #fff;
+}
+
+.bottom-bar div {
+    display: block;
+    /* text-decoration: none; */
+    text-align: center;    
+    float:left;
+    padding-right: 60px;
+    line-height: 30px;
+}
+
+.bottom-bar div button {
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    border: solid #fff;
+    border-radius: 50px;
+    /* padding: 2px; */
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #fff;
+}
+
+.bottom-bar div button:hover {
+    color: #000;
+    background: #fff;
+}
+#speedometer {
+    bottom: 0;
+    inset-inline-start: calc(50% - 14px);
+    max-width: 28px;
+    opacity: .2;
+    position: absolute;
+    left: calc(50% - 14px);
+}
